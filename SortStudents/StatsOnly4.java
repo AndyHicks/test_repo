@@ -22,7 +22,7 @@ public class StatsOnly4
         String[] calcOnly = new String[maximumStudentsPossible];
         String[] statsAndCalc = new String[minimumStudentsPossible];
 
-        System.out.println("Number of Statistics students: " + numberOfStatsStudents);
+        System.out.println("Number of Statistics students in the class: " + numberOfStatsStudents);
         int count = 1;
         for (String statsName : statsStudents)
         {
